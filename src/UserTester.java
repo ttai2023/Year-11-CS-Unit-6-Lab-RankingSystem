@@ -61,14 +61,14 @@ public class UserTester {
     @Test
     public void testRankUpActivity() {
         setUp();
-        test(1, -2, 40);
-        test(1, -2, 80);
-        test(1, -1, 20);
-        test(1, -1, 30);
-        test(1, -1, 40);
-        test(2, -1, 80);
-        test(2, 1, 20);
-        test(-1, 1, 21);
+        test(1, 1, 10);
+        test(1, 1, 13);
+        test(1, 1, 16);
+        test(1, 1, 19);
+        test(1, 1, 22);
+        test(2, 1, 32);
+        test(2, 1, 42);
+        test(-1, 1, 82);
         tearDown();
     }
 
